@@ -1,0 +1,25 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid gainsboro;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.chat_detail {
+  flex: 1;
+  /* margin-left: 20px; */
+}
+.chat_detail > p {
+  color: gray;
+}
+.chat_time {
+  color: lightgray;
+}
+.chat_image {
+  margin-right: 20px;
+}
